@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		71166BF14991F649722EBFF6 /* Pods_tabular.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CEE57EF05932BFEAD254926 /* Pods_tabular.framework */; };
 		B5FAEB771F6EE3B6007DE83A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FAEB761F6EE3B6007DE83A /* AppDelegate.swift */; };
 		B5FAEB791F6EE3B6007DE83A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FAEB781F6EE3B6007DE83A /* ViewController.swift */; };
 		B5FAEB7C1F6EE3B6007DE83A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5FAEB7A1F6EE3B6007DE83A /* Main.storyboard */; };
 		B5FAEB7E1F6EE3B6007DE83A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5FAEB7D1F6EE3B6007DE83A /* Assets.xcassets */; };
 		B5FAEB811F6EE3B6007DE83A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5FAEB7F1F6EE3B6007DE83A /* LaunchScreen.storyboard */; };
+		B5FAEB891F6EE856007DE83A /* UsersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FAEB881F6EE856007DE83A /* UsersTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3CEE57EF05932BFEAD254926 /* Pods_tabular.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tabular.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5FAEB731F6EE3B6007DE83A /* tabular.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tabular.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5FAEB761F6EE3B6007DE83A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5FAEB781F6EE3B6007DE83A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,9 @@
 		B5FAEB7D1F6EE3B6007DE83A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5FAEB801F6EE3B6007DE83A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5FAEB821F6EE3B6007DE83A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5FAEB881F6EE856007DE83A /* UsersTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersTableViewController.swift; sourceTree = "<group>"; };
+		C9C606D0DF9723928477AB15 /* Pods-tabular.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tabular.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tabular/Pods-tabular.debug.xcconfig"; sourceTree = "<group>"; };
+		F1F4BD507BC4F853248F7BD3 /* Pods-tabular.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tabular.release.xcconfig"; path = "Pods/Target Support Files/Pods-tabular/Pods-tabular.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71166BF14991F649722EBFF6 /* Pods_tabular.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D45C0440EF2871BCAC06C4C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3CEE57EF05932BFEAD254926 /* Pods_tabular.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B5FAEB6A1F6EE3B6007DE83A = {
 			isa = PBXGroup;
 			children = (
 				B5FAEB751F6EE3B6007DE83A /* tabular */,
 				B5FAEB741F6EE3B6007DE83A /* Products */,
+				D4B5B71271B9DE42510DBF43 /* Pods */,
+				4D45C0440EF2871BCAC06C4C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,11 +74,21 @@
 				B5FAEB761F6EE3B6007DE83A /* AppDelegate.swift */,
 				B5FAEB781F6EE3B6007DE83A /* ViewController.swift */,
 				B5FAEB7A1F6EE3B6007DE83A /* Main.storyboard */,
+				B5FAEB881F6EE856007DE83A /* UsersTableViewController.swift */,
 				B5FAEB7D1F6EE3B6007DE83A /* Assets.xcassets */,
 				B5FAEB7F1F6EE3B6007DE83A /* LaunchScreen.storyboard */,
 				B5FAEB821F6EE3B6007DE83A /* Info.plist */,
 			);
 			path = tabular;
+			sourceTree = "<group>";
+		};
+		D4B5B71271B9DE42510DBF43 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C9C606D0DF9723928477AB15 /* Pods-tabular.debug.xcconfig */,
+				F1F4BD507BC4F853248F7BD3 /* Pods-tabular.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B5FAEB851F6EE3B6007DE83A /* Build configuration list for PBXNativeTarget "tabular" */;
 			buildPhases = (
+				5FB4E86E1747808CA01A299B /* [CP] Check Pods Manifest.lock */,
 				B5FAEB6F1F6EE3B6007DE83A /* Sources */,
 				B5FAEB701F6EE3B6007DE83A /* Frameworks */,
 				B5FAEB711F6EE3B6007DE83A /* Resources */,
+				45F1A16462C02AE32DA56EEE /* [CP] Embed Pods Frameworks */,
+				D5B9977BC3F93C695667F9AB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,6 +162,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		45F1A16462C02AE32DA56EEE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tabular/Pods-tabular-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5FB4E86E1747808CA01A299B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D5B9977BC3F93C695667F9AB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tabular/Pods-tabular-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B5FAEB6F1F6EE3B6007DE83A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -139,6 +217,7 @@
 			files = (
 				B5FAEB791F6EE3B6007DE83A /* ViewController.swift in Sources */,
 				B5FAEB771F6EE3B6007DE83A /* AppDelegate.swift in Sources */,
+				B5FAEB891F6EE856007DE83A /* UsersTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,6 +261,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -231,6 +311,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -257,6 +338,7 @@
 		};
 		B5FAEB861F6EE3B6007DE83A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9C606D0DF9723928477AB15 /* Pods-tabular.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = FMQ6R58UAV;
@@ -270,6 +352,7 @@
 		};
 		B5FAEB871F6EE3B6007DE83A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1F4BD507BC4F853248F7BD3 /* Pods-tabular.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = FMQ6R58UAV;
@@ -300,6 +383,7 @@
 				B5FAEB871F6EE3B6007DE83A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
